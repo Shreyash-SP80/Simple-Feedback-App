@@ -37,7 +37,7 @@ This project was developed to:
 ---
 
 ## 🔹 Project Structure
-```
+```bash
 feedback_app/
 ├── src/main/java/feedback_app/ # Servlets
 │ └── FeedbackServlet.java
@@ -67,7 +67,7 @@ cd Simple-Feedback-App
 ### 3️⃣ Configure Database
 - Create a MySQL database, e.g. feedback_db
 - Create a table:
-```
+```bash
 CREATE TABLE feedback (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE feedback (
 );
 ```
 - Update DB credentials in FeedbackServlet.java:
-```
+```bash
 String jdbcURL = "jdbc:mysql://localhost:3306/feedback_db";
 String dbUser = "root";
 String dbPassword = "your_password";
