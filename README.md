@@ -1,4 +1,4 @@
-# 📌 Feedback App (Servlet + JSP + JDBC + Bootstrap)
+# Feedback App (Servlet + JSP + JDBC + Bootstrap)
 
 The **Feedback App** is a simple web application built using **Java Servlets, JSP, Bootstrap, and JDBC**.  
 It allows users to submit feedback, which is stored in a SQL database.  
@@ -91,7 +91,7 @@ String dbPassword = "your_password";
 
 ## 🔹 Maven Dependency for MySQL Connector
 - Add this to your pom.xml to connect with MySQL:
-```
+```bash
   <dependency>
 		    <groupId>com.oracle.database.jdbc</groupId>
 		    <artifactId>ojdbc11</artifactId>
