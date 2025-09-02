@@ -1,0 +1,22 @@
+/target/
+# Maven
+/target/
+/dependency-reduced-pom.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Build & IDE
+/bin/
+/build/
+*.class
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jars (use Maven instead)
+/*.jar
